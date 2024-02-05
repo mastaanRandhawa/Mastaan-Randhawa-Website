@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Personal Website</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="swiper.min.css" />
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-6 col-xs-12">
+            <nav>
+              <div id="menu-toggle">
+                <div class="hamburger">
+                  <span class="line"></span>
+                  <span class="line"></span>
+                  <span class="line"></span>
+                </div>
+                <div class="cross">
+                  <span class="line"></span>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <ul class="main-nav">
+                <li><a href="#Home" id="navAbout">Home</a></li>
+                <li><a href="#Experience" id="navAbout">Experience</a></li>
+                <li><a href="#Project" id="navAbout">Projects & Skills</a></li>
+                <li><a href="#About" id="navAbout">About</a></li>
+              </ul>
+            </nav>
+            <!-- <a href="#" class="menu"><img src="menu.png"></a> -->
+            <div class="hero-text">
+              <h1><span>Hi, I am</span><br />Mastaan Randhawa.</h1>
+              <h3>Software Developer from Vancouver</h3>
+              <a href="#Experience" class="btn btn-lg btn-primary">Know More</a>
+              <ul class="social-links">
+                <li class="label">Find my Profiles here</li>
+                <li>
+                  <a href="https://github.com/mastaanRandhawa"
+                    ><img src="github.png"
+                  /></a>
+                  <a href="https://www.linkedin.com/in/mastaan-singh-42200729b/"
+                    ><img src="linkedin.jpg"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="Experience" class="case-study">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="heading purple">
+              <span class="purple">Experience</span>
+            </h1>
+            <!-- Swiper -->
+            <div class="swiper-container client-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide client-box">
+                  <h3 class="text-left title">Vision Centre Associate</h3>
+                  <p class="text-left tag">
+                    Customer Service, Sales, Communication
+                  </p>
+                  <p class="text-left">
+                    <a
+                      href="https://www.walmart.ca/en/cp/discovery-pages/discovery-pages-GM/vision-centre/6000206074206"
+                      >Know More &#8594;</a
+                    >
+                  </p>
+                </div>
+
+                <div class="swiper-slide client-box">
+                  <h3 class="text-left title">
+                    Google Developers Student Club
+                  </h3>
+                  <p class="text-left tag">Executive, Graphic Designer</p>
+                  <p class="text-left">
+                    <a href="https://gdsc.community.dev/">Know More &#8594;</a>
+                  </p>
+                </div>
+
+                <div class="swiper-slide client-box">
+                  <h3 class="text-left title">Vision Centre Associate</h3>
+                  <p class="text-left tag">
+                    Customer Service, Sales, Communication
+                  </p>
+                  <p class="text-left">
+                    <a
+                      href="https://www.walmart.ca/en/cp/discovery-pages/discovery-pages-GM/vision-centre/6000206074206"
+                      >Know More &#8594;</a
+                    >
+                  </p>
+                </div>
+
+                <div class="swiper-slide client-box">
+                  <h3 class="text-left title">
+                    Google Developers Student Club
+                  </h3>
+                  <p class="text-left tag">Executive, Graphic Designer</p>
+                  <p class="text-left">
+                    <a href="https://gdsc.community.dev/">Know More &#8594;</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Project" class="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="heading pink">
+              My
+              <span class="pink">Projects</span> & <br />
+              <span class="pink">Skills</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Swiper -->
+            <div class="swiper-container testimonial-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide testimonial-box yellow">
+                  <h1>Sorting Algorithms</h1>
+                  <p>
+                    Implemented seven sorting algorithms, including bubble sort,
+                    insertion sort, and quick sort, adhering to strict coding
+                    standards. Organized table and four visually appealing
+                    graphs using Excel. Created SortStat objects, emphasizing
+                    CPU time and comparison counts for each algorithm.
+                  </p>
+                  <div class="text-right">
+                    <p class="designation">
+                      Data Structures and Programming, SFU
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonial-box purple">
+                  <h1>RISC-V Processor</h1>
+                  <p>
+                    RISC-V Processor Developed a RISC-V processor in
+                    C/C++/Assembly. Implemented RISC-V instructions with custom
+                    slt-type instructions. Created ECALL instruction to support
+                    system calls. Decoded and printed output for a concise
+                    representation of executed instructions.
+                  </p>
+                  <div class="text-right">
+                    <p class="designation">Operating Systems, SFU</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonial-box blue">
+                  <h1>AVL Tree Data Structure</h1>
+                  <p>
+                    Constructed a Wordlist class using AVL tree data structure,
+                    eliminating reliance on vectors, arrays, or linked lists.
+                    Developed constructors to create empty Wordlist objects and
+                    parse words from files. Ensured memory leak prevention and
+                    rigorously tested code for correctness.
+                  </p>
+                  <div class="text-right">
+                    <p class="designation">
+                      Data Structures and Programming, SFU
+                    </p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonial-box pink">
+                  <h1>Website Projects</h1>
+                  <p>
+                    Designed and developed multiple websites utilizing HTML,
+                    CSS, Bootstrap, and JavaScript. Applied Bootstrap for
+                    efficient styling and responsiveness. JavaScript was
+                    employed to add interactivity and improve user engagement.
+                  </p>
+                  <div class="text-right">
+                    <p class="designation">Personal Projects, MR</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonial-box yellow">
+                  <h1>Muli-level Cache System</h1>
+                  <p>
+                    Developed and managed multiple cache projects using C/C++
+                    programming language. Implemented a cache system with
+                    features such as LRU and LFU eviction policies. Utilized
+                    structures and dynamic memory allocation to organize cache
+                    sets, lines, and blocks efficiently.
+                  </p>
+                  <div class="text-right">
+                    <p class="designation">Operating Systems, SFU</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonial-box purple">
+                  <h1>Vector Algorithms</h1>
+                  <p>
+                    Developed SoASerial for sum of absolute values, SoAVector
+                    for vectorized computation, and ReluVector for Rectified
+                    Linear Unit activation. Also implemented a vectorized IMAX
+                    algorithm for maximum index identification.
+                  </p>
+                  <div class="text-right">
+                    <p class="designation">Operating Systems, SFU</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonial-box blue">
+                  <h1>Sparse Matrix Vector</h1>
+                  <p>
+                    Implemented assembly functions for dot products in different
+                    scenarios: sparse vector with dense vector, two integer
+                    vectors, and a generic dot product. Utilized Assembly to
+                    achieve efficient computation. Developed a Sparse
+                    Matrix-Vector Multiplication (Spmv) function, handling
+                    sparse matrix input in COO format and dense vector input.
+                  </p>
+                  <div class="text-right">
+                    <p class="designation">Operating Systems, SFU</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center stat-box">
+            <h1 class="purple"><span class="counter">60</span></h1>
+            <h3>Hours</h3>
+          </div>
+          <div class="col-md-4 text-center stat-box">
+            <h1 class="blue counter">21</h1>
+            <h3>Projects</h3>
+          </div>
+          <div class="col-md-4 text-center stat-box">
+            <h1 class="pink"><span class="counter">15</span></h1>
+            <h3>Leet Code</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Banner -->
+    <section id="About" class="contact-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1>About</h1>
+            <p>
+              Welcome to my online space! I'm Mastaan Randhawa, a Computer
+              Science student at SFU. I'm passionate about technology,
+              proficient in programming languages like Python, C/C++, and web
+              development tools. I'm also skilled in software applications
+              including Adobe Suite. As an SFU GDSC executive, I drive tech
+              initiatives and handle graphic design. At Walmart Vision Center, I
+              excel in personalized customer service. Let's connect and explore
+              the world of technology together!
+            </p>
+            <h1></h1>
+            <a
+              href="https://github.com/mastaanRandhawa/Mastaan-Resume-2024-/blob/main/Mastaan-Resume-2024.pdf"
+              class="btn btn-lg btn-primary"
+              >Resume</a
+            >
+            <!-- ADD link to resume -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row footer">
+          <div class="col-md-12 text-center">
+            <img src="mastaan-logo.png" alt="Mastaan-logo" />
+            <h1>Mastaan<br /><span>Randhawa</span></h1>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Some Javascript -->
+    <script src="jquery-2.1.1.js"></script>
+    <script src="swiper.jquery.min.js"></script>
+    <!-- Initialize Experience Swiper -->
+    <script>
+      var swiper1 = new Swiper(".client-swiper", {
+        slidesPerView: 3,
+        paginationClickable: true,
+        nextButton: ".swiper-button-next",
+        prevButton: ".swiper-button-prev",
+        spaceBetween: 60,
+        // Responsive breakpoints
+        breakpoints: {
+          // when window width is <= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: ".swiper-pagination",
+          },
+          // when window width is <= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is <= 640px
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+        },
+      });
+      // Initialize Testimonial Swiper
+      var swiper2 = new Swiper(".testimonial-swiper", {
+        slidesPerView: 3,
+        pagination: ".swiper-pagination",
+        paginationClickable: true,
+        spaceBetween: 30,
+        grabCursor: true,
+        freeMode: true,
+        breakpoints: {
+          // when window width is <= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          // when window width is <= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          // when window width is <= 640px
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+        },
+      });
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <script>
+      // Counterup
+      $(".counter").counterUp({
+        time: 1000,
+      });
+
+      // Main Navigation
+      $("#menu-toggle").click(function () {
+        $(this).toggleClass("open"), $(".main-nav").toggleClass("show-it");
+      });
+    </script>
+    <!-- Scroll -->
+    <script>
+      document
+        .getElementById("navExperience")
+        .addEventListener("click", function (e) {
+          e.preventDefault(); // Prevent default anchor behavior
+
+          const aboutSection = document.querySelector("#experience"); // Make sure the selector corresponds to your Experience section ID
+          const offset = 80; // Adjust this value to match the height of your fixed header or the desired space above the section
+          const aboutSectionPosition =
+            aboutSection.getBoundingClientRect().top +
+            window.pageYOffset -
+            offset;
+          window.scrollTo({
+            top: aboutSectionPosition,
+            behavior: "smooth",
+          });
+        });
+    </script>
+  </body>
+</html>
